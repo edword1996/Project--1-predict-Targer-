@@ -62,16 +62,13 @@ Random forest +1 feature with cluster:
 - test=0.04600999234721792
 
 <Random forest clusterization>:
- 
 - class 1 RF (train) R2 target-1:  0.8453296005471305 
 - class 0 RF (train) score R2 target-2:  0.8297992080836059
 - class 1 RF (test) score R2 target-1:  -0.12388571038685892 
 - class 0 RF (test) score R2 target-2:  0.1575205882352929
  
- 
-</Random forest clusterization>
+
 <Plain random forest>
- 
 - RF (train) score R2 target-1:  0.847827046008671 
 - RF (train) score R2 target-2:  0.8350441095953473
 - RF (test) score R2 target-1:  -0.17701133485505527 
