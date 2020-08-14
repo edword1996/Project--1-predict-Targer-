@@ -98,8 +98,6 @@ for i in range(min_1.shape[0]):
 grid_X = grid_X.T
 grid_y = griddata(X, y, grid_X, method='nearest')
 
-
-
 data_interpol = np.hstack([grid_X,grid_y.reshape(-1,1)])
 
 
@@ -139,25 +137,28 @@ print('regularization on test 0.5', reg2.score(test.drop(['target1','target2'],1
 
 
 #################Plain random forest#######################
+
 print('<Plain random forest>')
 model_rf1 = RandomForestRegressor()
 model_rf1.fit(train.drop(['target1','target2'],1),train['target1'])
 model_rf2 = RandomForestRegressor()
 model_rf2.fit(train.drop(['target1','target2'],1),train['target2'])
+
 print('RF (train) score R2 target-1: ',model_rf1.score(train.drop(['target1','target2'],1),train['target1']),
       '\nRF (train) score R2 target-2: ',model_rf2.score(train.drop(['target1','target2'],1),train['target2']))
+
 print('RF (test) score R2 target-1: ',model_rf1.score(test.drop(['target1','target2'],1),test['target1']),
       '\nRF (test) score R2 target-2: ',model_rf2.score(test.drop(['target1','target2'],1),test['target2']))
+
 print('</Plain random forest>')
+
 #################Plain random forest#######################
+
 cluster1 = pd.Series(kmeans_1.predict(train.drop(['target1','target2'],1)), name='Cluster')
 train_cluster = pd.concat([train.reset_index(), cluster1], 1)
 
-
 cluster1 = pd.Series(kmeans_1.predict(test.drop(['target1','target2'],1)), name='Cluster')
 test_cluster = pd.concat([test.reset_index(), cluster1], 1)
-
-
 
 model_rf = RandomForestRegressor()
 model_rf.fit(train_cluster.drop(['target1','target2'],1),train_cluster['target1'])
