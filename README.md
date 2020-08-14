@@ -44,10 +44,10 @@ python only_result.py
 ```
 # Result
 Regularisation
-#regularization on train 1 0.029381506064767082
-#regularization on test 1 -0.02625309831985545
-#regularization on train 0.5 0.036217354495948095
-#regularization on test 0.5 -0.03756384660277923
+- regularization on train 1 0.029381506064767082
+- regularization on test 1 -0.02625309831985545
+- regularization on train 0.5 0.036217354495948095
+- regularization on test 0.5 -0.03756384660277923
 
 <Plain random forest>
 RF (train) score R2 target-1:  0.8447448502287112 
