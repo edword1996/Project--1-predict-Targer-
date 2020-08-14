@@ -50,34 +50,37 @@ Regularisation
 - regularization on test 0.5 -0.03756384660277923
 
 <Plain random forest>
-RF (train) score R2 target-1:  0.8447448502287112 
-RF (train) score R2 target-2:  0.8238899756668032
-RF (test) score R2 target-1:  -0.11845883266909829 
-RF (test) score R2 target-2:  -0.05342851189771025
-</Plain random forest>
+ 
+- RF (train) score R2 target-1:  0.8447448502287112 
+- RF (train) score R2 target-2:  0.8238899756668032
+- RF (test) score R2 target-1:  -0.11845883266909829 
+- RF (test) score R2 target-2:  -0.05342851189771025
+
 
 Random forest +1 feature with cluster: train=0.8587967267824484; test=0.04600999234721792
 
 <Random forest clusterization>:
-class 1 RF (train) R2 target-1:  0.8453296005471305 
-class 0 RF (train) score R2 target-2:  0.8297992080836059
-class 1 RF (test) score R2 target-1:  -0.12388571038685892 
-class 0 RF (test) score R2 target-2:  0.1575205882352929
+ 
+- class 1 RF (train) R2 target-1:  0.8453296005471305 
+- class 0 RF (train) score R2 target-2:  0.8297992080836059
+- class 1 RF (test) score R2 target-1:  -0.12388571038685892 
+- class 0 RF (test) score R2 target-2:  0.1575205882352929
  
  
 </Random forest clusterization>
 <Plain random forest>
-RF (train) score R2 target-1:  0.847827046008671 
-RF (train) score R2 target-2:  0.8350441095953473
-RF (test) score R2 target-1:  -0.17701133485505527 
-RF (test) score R2 target-2:  0.04073105502109964
+ 
+- RF (train) score R2 target-1:  0.847827046008671 
+- RF (train) score R2 target-2:  0.8350441095953473
+- RF (test) score R2 target-1:  -0.17701133485505527 
+- RF (test) score R2 target-2:  0.04073105502109964
 
 
 <GradientBoostingRegressor>
-RF (train) score R2 target-1:  0.9931652227254302 
-RF (train) score R2 target-2:  0.9626017198476138
-RF (test) score R2 target-1:  -0.22131367683256808 
-RF (test) score R2 target-2:  -0.38876850909475724
+- (train) score R2 target-1:  0.9931652227254302 
+- (train) score R2 target-2:  0.9626017198476138
+- (test) score R2 target-1:  -0.22131367683256808 
+- (test) score R2 target-2:  -0.38876850909475724
  
 
 # Conclusion
