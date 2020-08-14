@@ -4,7 +4,7 @@
  
  # Download project
  In order for the project to be cloned to the current folder, you need to open the command line and run the commandу (git clone 
- https://github.com/edword1996/Move-detection-.git)
+ https://github.com/edword1996/Project--1-predict-Target.git)
  
 # Package Installation
 
