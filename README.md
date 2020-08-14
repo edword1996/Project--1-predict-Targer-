@@ -57,7 +57,9 @@ Regularisation
 - RF (test) score R2 target-2:  -0.05342851189771025
 
 
-Random forest +1 feature with cluster: train=0.8587967267824484; test=0.04600999234721792
+Random forest +1 feature with cluster: 
+- train=0.8587967267824484; 
+- test=0.04600999234721792
 
 <Random forest clusterization>:
  
