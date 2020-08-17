@@ -2,6 +2,12 @@
 # Task description
  Task:Scope of this project is to predict as precisely as possible the values of the targets (Target1,Target2) relative to the validation set.
  
+# Information about project
+The project consists of two parts:
+- data analysis;
+- data analytics.
+All analytics and predictions of all algorithms that were used in the work are in the only_result.py file. The parsing part is in the file (). This file contains all graphs and their description.
+ 
  # Download project
  In order for the project to be cloned to the current folder, you need to open the command line and run the commandу (git clone 
  https://github.com/edword1996/Project--1-predict-Target.git)
