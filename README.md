@@ -5,7 +5,7 @@
 # Information about project
 The project consists of two parts:
 - data analysis;
-- data analytics.
+- data analytics;
 All analytics and predictions of all algorithms that were used in the work are in the only_result.py file. The parsing part is in the file (). This file contains all graphs and their description.
  
  # Download project
