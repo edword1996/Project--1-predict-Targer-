@@ -24,10 +24,9 @@ pd.set_option('display.max_columns', 10)
 
 
 NUMBER_OF_LETTERS=-12
-#Делаем список файлов в тренировочной директории
 filenames = []
 for (_, _, fn) in os.walk('./Data_Andrew_181_Files/'):
-    #f.extend(filenames)
+   
     for file in fn:
         filenames.append(file[:NUMBER_OF_LETTERS])
 target = pd.read_excel('Andrew_181_Files - копия.xlsx', index_col=False)
@@ -178,7 +177,7 @@ cluster_test = kmeans_1.predict(test.drop(['target1','target2'],1))
 test1 = test[cluster_test==1]
 test0 = test[cluster_test==0]
 
-#################################Clusterization####################333####
+#################################Clusterization########################
 print('<Random forest clusterization>:')
 model1 = RandomForestRegressor()
 model1.fit(train1.drop(['target1','target2'],1),train1['target1'])
