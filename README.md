@@ -93,4 +93,4 @@ GradientBoostingRegressor
 
 Pay attention to the results. As mentioned earlier, we have a pretty good result on the training sample. That is, the model learns well.
 But we see a bad even negative result on the test. This is the so-called retraining (overfitting).
-As a conclusion, we have a very powerful model, aggressive lenin rates, based on this, and a bad test.
+As a conclusion, we have a very powerful model, aggressive learning rates, based on this, and a bad test.
