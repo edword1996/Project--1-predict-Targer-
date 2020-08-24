@@ -4,7 +4,7 @@
  
 # Information about project
 The project consists of 5 modules:
-- only_function.py
+- only_function.py;
 It's main module. This module stores all other modules and undergoes operations of writing the results to a file.
 - pars_data.py
 This module is responsible for the fact that it would qualitatively and completely open all files for their further work.
