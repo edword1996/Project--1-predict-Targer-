@@ -5,10 +5,15 @@
 # Information about project
 The project consists of 5 modules:
 - only_function.py
+It's main module. This module stores all other modules and undergoes operations of writing the results to a file.
 - pars_data.py
+This module is responsible for the fact that it would qualitatively and completely open all files for their further work.
 - preprocessing.py
+This module is responsible for normalizing and processing data to a state where it can already be trained.
 - test_data.py
+Here the data is trained on different models.
 - train_data.py
+We have result on test data.
 
 The main module to run is called only_function.py. It contains all the other modules. After you run the project, you will get 2 folders and 2 files (txt). The folders that you will see after launching they are called (target1_models and target2_models) these folders contain models but you do not need them. To view the result, you need files named (predicted_target1.txt and predicted_target2.txt). You will also see them after launch.
 
