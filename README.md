@@ -3,9 +3,12 @@
  Task:Scope of this project is to predict as precisely as possible the values of the targets (Target1,Target2) relative to the validation set.
  
 # Information about project
-The project consists of two parts:
-- data analysis;
-- data analytics
+The project consists of 5 modules:
+- only_function.py
+- pars_data.py
+- preprocessing.py
+- test_data.py
+- train_data.py
 
 
 All analytics and predictions of all algorithms that were used in the work are in the only_result.py file. The parsing part is in the file (). This file contains all graphs and their description.
