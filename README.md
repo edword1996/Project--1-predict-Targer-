@@ -10,8 +10,9 @@ The project consists of 5 modules:
 - test_data.py
 - train_data.py
 
+The main module to run is called only_function.py. It contains all the other modules. After you run the project, you will get 2 folders and 2 files (txt). The folders that you will see after launching they are called (target1_models and target2_models) these folders contain models but you do not need them. To view the result, you need files named (predicted_target1.txt and predicted_target2.txt). You will also see them after launch.
 
-All analytics and predictions of all algorithms that were used in the work are in the only_result.py file. The parsing part is in the file (). This file contains all graphs and their description.
+
  
  # Download project
  In order for the project to be cloned to the current folder, you need to open the command line and run the commandу (git clone 
